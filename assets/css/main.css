@@ -17,13 +17,15 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2640,9 +2642,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	header.major {
-		margin-bottom: 3em;
-	}
+
 	.skills-header {
 		margin-bottom: 0em!important;
 	}
@@ -3799,10 +3799,22 @@ input, select, textarea {
 .project-item {
 	text-align: justify;
 	list-style: circle;
+	margin-top: 0.4em;
 }
 
 
 
 ul.about.me {
 	text-align: justify;
+	padding-left: 0%;
+}
+
+summary
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	 font-size: 1.2em; !important
+	font: inherit;
+	vertical-align: baseline;
 }
